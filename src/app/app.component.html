@@ -1,2 +1,20 @@
-<h1>{{ title }}</h1>
-<img class="img-thumbnail" [src]="url" [alt]="title">
+<div class="ui-g">
+    <div class="ui-g-12">
+        <h1>
+            Produtos
+        </h1>
+    </div>
+    <div class="ui-g-12 ui-fluid">
+        <div class="ui-g-6 ui-fluid ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="pi-shopping-cart"></i></span>
+            <input type="text" pInputText placeholder="Descrição">
+        </div>
+        <div class="ui-g-6 ui-fluid ui-inputgroup">
+            <span class="ui-inputgroup-addon">$</span>
+            <input type="text" pInputText placeholder="Preço">
+        </div>
+    </div>
+    <div class="ui-g-12 ui-fluid">
+      <p-calendar formControlName="date"></p-calendar>
+    </div>
+</div>
