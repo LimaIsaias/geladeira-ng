@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
+import {ToolbarModule} from 'primeng/toolbar';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { ContentComponent } from './content/content.component';
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule, InputTextModule, CalendarModule
+    AppRoutingModule, InputTextModule, CalendarModule, ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
