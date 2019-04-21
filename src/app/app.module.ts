@@ -10,6 +10,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import {ToolbarModule} from 'primeng/toolbar';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routes';
 
 
 @NgModule({
@@ -17,12 +20,14 @@ import {ToolbarModule} from 'primeng/toolbar';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule, InputTextModule, CalendarModule, ToolbarModule
+    AppRoutingModule, InputTextModule, CalendarModule, ToolbarModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
