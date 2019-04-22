@@ -3,16 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputTextModule } from 'primeng/inputtext';
-import { CalendarModule } from 'primeng/calendar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
-import {ToolbarModule} from 'primeng/toolbar';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { ProdutosComponent } from './produtos/produtos.component';
 
 
 @NgModule({
@@ -21,12 +19,13 @@ import { ROUTES } from './app.routes';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-    HomeComponent
+    HomeComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule, InputTextModule, CalendarModule, ToolbarModule,
+    AppRoutingModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
