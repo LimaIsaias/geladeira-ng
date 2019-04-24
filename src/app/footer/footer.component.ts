@@ -5,12 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './footer.component.html',
 })
 export class FooterComponent implements OnInit {
+  appVersion: string;
   constructor() {
   }
-  public appVersion;
 
   ngOnInit() {
     const { version: appVersion } = require('package.json');
+    this.appVersion = appVersion;
     console.log(appVersion);
   }
 }
