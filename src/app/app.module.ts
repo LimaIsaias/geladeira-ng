@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { ProdutosComponent } from './produtos/produtos.component';
+import { ProdutoComponent } from './produtos/produto/produto.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProdutosComponent } from './produtos/produtos.component';
     FooterComponent,
     ContentComponent,
     HomeComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    ProdutoComponent
   ],
   imports: [
     BrowserAnimationsModule,
