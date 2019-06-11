@@ -30,7 +30,7 @@
     "intl": "1.2.5",
     "jquery": "^3.4.0",
     "moment": "^2.24.0",
-    "reflect-metadata": "0.1.9",
+    "reflect-metadata": "0.1.13",
     "rxjs": "^6.5.1",
     "ts-helpers": "1.1.2",
     "web-animations-js": "^2.2.5",
