@@ -31,7 +31,7 @@
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "reflect-metadata": "0.1.13",
-    "rxjs": "^6.5.1",
+    "rxjs": "^6.5.2",
     "ts-helpers": "1.1.2",
     "web-animations-js": "^2.2.5",
     "zone.js": "0.9.1"
